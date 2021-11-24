@@ -1,25 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume using HTML and CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    <div class="heading">
-        <div class="intro">
-            <h1>Pratham Jha</h1>
-            <h2>Junior Year</h2>
-            <h3>Web Dev Enthusiast</h3>
+    <div class="body">
+
+        <div id="header">
+            <div>
+                <h1 id="name">Pratham</h1>
+                <h1 id="name">Jha</h1>
+            </div>
+            <div class="details">
+                <h2>prathamjha5683@gmail.com <a href="mailto:prathamjha5683@gmail.com"><i
+                            class="fas fa-envelope"></i></a>
+                </h2>
+                <h2>+91 6290785245 <a href="tel:+918910250031"><i class="fas fa-phone"></i></a></h2>
+                <h2>linkedin <a href="https://www.linkedin.com/in/pratham-jha-0ba874192/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a></h2>
+                <h2>github <a href="https://github.com/PrathamJha1" target="_blank"><i class="fab fa-github"></i></a>
+                </h2>
+            </div>
         </div>
-        <div class="links">
-            <a>Linkedin</a>
-            <a>Instagram</a>
-            <a>Twitter</a>
-            <a></a>
+        <div id="about">
+            <h2><i class="fas fa-user"></i> About</h2>
+            <p>A Junior Year Computer Science Undergraduate Student passionate about problem solving and Web
+                Development.
+            </p>
+        </div>
+        <div id="education">
+            <h2><i class="fas fa-user-graduate"></i> Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name of School</th>
+                        <th>Year of study</th>
+                        <th>Percentage/GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MCKV Institute Of Engineering</td>
+                        <td>2019-2023</td>
+                        <td>2nd year 9.59</td>
+                    </tr>
+                    <tr>
+                        <td>Shree Jain Vidyalaya</td>
+                        <td>2017-2019</td>
+                        <td>79</td>
+                    </tr>
+                    <tr>
+                        <td>Shree Jain Vidyalaya</td>
+                        <td>2017</td>
+                        <td>81</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="skills">
+            <h2><i class="fas fa-toolbox"></i> Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div id="projects">
+            <h2><i class="fas fa-network-wired"></i> Projects</h2>
+            <ul>
+                <li>
+                    <h3>Notes App</h3>
+                    <p>Made a note taking website using HTML, CSS, JavaScript <a
+                            href="https://prathamjha1.github.io/Notepad/" target="_blank"> link </a></p>
+                </li>
+            </ul>
+        </div>
+        <div id="accomplishments">
+            <h2><i class="fas fa-trophy"></i> Achievements</h2>
+            <ul>
+                <li>3✨ coder at Codechef <a href="https://www.codechef.com/users/pratham_2001">link</a></li>
+                <li>Solved 180+ problems on Leetcode<a href="https://leetcode.com/prathamjha5683/">link</a></li>
+                <li>Completed Technical Content Writer Internship with GFG <a
+                        href="https://www.linkedin.com/feed/update/urn:li:activity:6856649699638804480/">link</a></li>
+            </ul>
         </div>
     </div>
-
 </body>
+
 </html>
