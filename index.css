@@ -2,17 +2,36 @@ html {
     padding: 20px;
 }
 .body{
-    padding:5%;
+    padding-left:5%;
+    padding-right:5%;
     width:90%;
     height:80%;
+}
+.intro{
+    padding: 3%;
 }
 body {
     padding: 20px;
     border: 2px solid rgb(69,90,163);
     border-radius: 10px;
+    font-family: 'Ubuntu',sans-serif;
+}
+h1,h2,h3{
     font-family: 'Montserrat', sans-serif;
 }
-
+.List{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    flex-wrap: wrap;
+}
+.sublist{
+    width:80px;
+    height:30px;
+    list-style: none;
+    font-family: 'Montserrat',sans-serif;
+}
 #header {
     display: flex;
     justify-content: space-between;
@@ -29,18 +48,18 @@ body {
 }
 
 .fas, .fab {
-    color: rgb(69,90,163);
+    color: rgb(80, 163, 69);
 }
 
 #about h2 {
     padding: 1%;
-    background-color: rgb(171,181,214);
+    background-color: rgb(175, 214, 171);
     border-radius: 20px;
 }
 
 #education h2 {
     padding: 1%;
-    background-color: rgb(171,181,214);
+    background-color: rgb(175, 214, 171);
     border-radius: 20px;
 }
 
@@ -50,7 +69,7 @@ table {
 }
 
 th {
-    background-color: rgb(171,181,214);
+    background-color: rgb(175, 214, 171);
 }
 
 th, td {
@@ -61,21 +80,23 @@ table, th, td {
     text-align: center;
     border: 1px solid black;
 }
-
+.projectlist{
+    list-style: none;
+}
 #skills h2 {
     padding: 1%;
-    background-color: rgb(171,181,214);
+    background-color: rgb(175, 214, 171);
     border-radius: 20px;
 }
 
 #projects h2 {
     padding: 1%;
-    background-color: rgb(171,181,214);
+    background-color: rgb(175, 214, 171);
     border-radius: 20px;
 }
 
 #accomplishments h2 {
     padding: 1%;
-    background-color: rgb(171,181,214);
+    background-color: rgb(175, 214, 171);
     border-radius: 20px;
 }
